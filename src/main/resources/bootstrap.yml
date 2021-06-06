@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: pbsetting
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/devkjc/pbsetting
+          search-paths: pbuser
+        encrypt.enabled: false
+
+server:
+  port: 8888
