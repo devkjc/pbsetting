@@ -19,7 +19,7 @@ spring:
   datasource:
     url: jdbc:mysql://postbird.cbysjphhbaea.ap-northeast-2.rds.amazonaws.com:3306/postbird?serverTimezone=Asia/Seoul
     username: admin
-    password: teamgray11!!
+    password: '{cipher}7f7872e62dd7e0a862661b267a5e1750515bc8ff34be934c4b71bdbee61e7b1d'
     driver-class-name: com.mysql.cj.jdbc.Driver
     tomcat:
       init-s-q-l: select 1
