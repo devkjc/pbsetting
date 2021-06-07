@@ -78,7 +78,7 @@ security:
 
 logging:
   level:
-        org:
-          springframework:
-            security: DEBUG
+    org:
+      springframework:
+        security: DEBUG
     root: INFO
