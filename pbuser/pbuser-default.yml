@@ -1,1 +1,2 @@
-port: 1231
+server:
+  port : 1231
