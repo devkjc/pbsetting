@@ -22,6 +22,7 @@ dependencies {
 	implementation 'org.springframework.cloud:spring-cloud-config-server'
 	implementation 'org.springframework.cloud:spring-cloud-starter'
 	implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'
+	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
 	implementation group: 'org.springframework.security', name: 'spring-security-rsa', version: '1.0.9.RELEASE'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
