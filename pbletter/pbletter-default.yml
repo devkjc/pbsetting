@@ -34,51 +34,13 @@ spring:
       default_batch_fetch_size: 1000
 
 security:
-  firebase-props:
-    database-url: https://postbird-394b0-default-rtdb.firebaseio.com/
-    enable-strict-server-session: false
-    enable-check-session-revoked: false
-    enable-logout-everywhere: false
-    session-expiry-in-days: 5
-  cookie-props:
-    max-age-in-minutes: 7200
-    http-only: true
-    secure: true
-    domain: ${CORS_DOMAIN}
-    path: /
-  allow-credentials: true
-  allowed-methods:
-    - GET
-    - POST
-    - PUT
-    - PATCH
-    - DELETE
-    - OPTIONS
-  allowed-headers:
-    - Authorization
-    - Origin
-    - Content-Type
-    - Accept
-    - Accept-Encoding
-    - Accept-Language
-    - Access-Control-Allow-Origin
-    - Access-Control-Allow-Headers
-    - Access-Control-Request-Method
-    - X-Requested-With
-    - X-Auth-Token
-    - X-Xsrf-Token
-    - Cache-Control
-    - Id-Token
-  allowed-public-apis:
-    - /favicon.ico
-    - /session/login
-    - /public/*
-  exposed-headers:
-    - X-Xsrf-Token
+  oauth2:
+    resource:
+      userInfoUri: http://localhost:8887/user
 
 logging:
   level:
-#    org:
-#      springframework:
-#        security: DEBUG
+    org:
+      springframework:
+        security: DEBUG
     root: INFO
