@@ -2,7 +2,7 @@
 FROM java:8
 
 # Add Author info
-LABEL maintainer="kjc3590@gmail.com"
+LABEL maintainer="kjc3590@naver.com"
 
 # Add a volume to /tmp
 VOLUME /tmp
