@@ -17,4 +17,4 @@ ARG JAR_FILE=/build/libs/pbsetting.jar
 ADD ${JAR_FILE} to-do.jar
 
 # Run the jar file
-ENTRYPOINT ["java","-jar -Dspring.profiles.active=dev -Duser.timezone=KST","/to-do.jar"]
+ENTRYPOINT ["java","-jar","-Dspring.profiles.active=dev -Duser.timezone=KST","/to-do.jar"]
