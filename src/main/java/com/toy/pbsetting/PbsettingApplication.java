@@ -9,7 +9,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 public class PbsettingApplication {
 
 	public static void main(String[] args) {
-		System.out.println("a :: " );
+		System.out.println("aaa :: " );
 		SpringApplication.run(PbsettingApplication.class, args);
 	}
 
