@@ -79,9 +79,5 @@ security:
 logging:
   file:
     path: /usr/local/pbsetting/logs
-#  level:
-#    org:
-#      springframework:
-#        security: DEBUG
-    root: INFO
+  root: INFO
 
