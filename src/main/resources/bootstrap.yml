@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/devkjc/pbsetting
+          uri: https://github.com/devkjc/pbresource
           search-paths: pbuser, pbletter
         encrypt.enabled: false
 
