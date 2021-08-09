@@ -13,7 +13,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      default-zone : http://localhost:8761/eureka/
+      default-zone : http://ec2-3-36-123-209.ap-northeast-2.compute.amazonaws.com:8761/eureka/
 
 spring:
   datasource:
@@ -36,7 +36,7 @@ spring:
 security:
   oauth2:
     resource:
-      userInfoUri: http://localhost:8887/user
+      userInfoUri:  ec2-13-125-84-145.ap-northeast-2.compute.amazonaws.com:8887/user
 
 logging:
   level:
