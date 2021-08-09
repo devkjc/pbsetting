@@ -77,8 +77,11 @@ security:
     - X-Xsrf-Token
 
 logging:
-  level:
-    org:
-      springframework:
-        security: DEBUG
+  file:
+    path: /usr/local/pbsetting/logs
+#  level:
+#    org:
+#      springframework:
+#        security: DEBUG
     root: INFO
+

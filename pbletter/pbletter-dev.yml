@@ -39,5 +39,7 @@ security:
       userInfoUri:  ec2-13-125-84-145.ap-northeast-2.compute.amazonaws.com:8887/user
 
 logging:
+  file:
+    path: /usr/local/pbsetting/logs
   level:
     root: INFO
