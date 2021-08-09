@@ -80,4 +80,3 @@ logging:
   file:
     path: /usr/local/pbsetting/logs
   root: INFO
-
