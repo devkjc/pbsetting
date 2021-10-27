@@ -6,7 +6,7 @@ spring:
       server:
         git:
           uri: https://github.com/devkjc/pbresource
-          search-paths: pbuser, pbletter, pbbird, pbpostbox
+#          search-paths: pbuser, pbletter, pbbird, pbpostbox
         encrypt.enabled: false
 
 server:
