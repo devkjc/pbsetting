@@ -17,9 +17,4 @@ public class PbsettingApplication {
 		SpringApplication.run(PbsettingApplication.class, args);
 	}
 
-	@GetMapping("/test")
-	public ResponseEntity<?> get() {
-	    return ResponseEntity.ok("hello");
-	}
-
 }
