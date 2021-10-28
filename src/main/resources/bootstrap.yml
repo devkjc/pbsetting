@@ -10,4 +10,4 @@ spring:
         encrypt.enabled: false
 
 server:
-  port: 8888
+  port: 5002
